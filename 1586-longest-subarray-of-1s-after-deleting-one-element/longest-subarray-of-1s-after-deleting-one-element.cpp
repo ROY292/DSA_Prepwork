@@ -34,11 +34,7 @@ public:
         }
         if(left[nums.size()-1] == nums.size())
             return nums.size()-1;
-        if(nums[0] == 0 && right[1] == nums.size() - 1)
-            return nums.size()-1;
-        
-        if(nums[nums.size()-1] == 0 && left[nums.size()-2] == nums.size()-1)
-        return nums.size()-1;
+      
 
         int ans = 0;
         // for(auto x: left)
