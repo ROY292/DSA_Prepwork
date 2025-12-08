@@ -7,11 +7,10 @@ public:
         {
             for(int j = 1;j<=n;j++)
             {
-                for(int k = 1;k<=n;k++)
-                {
-                    if((i*i) + (j*j) == (k*k))
-                        cnt++;
-                }
+                int temp = (i*i) + (j*j);
+                int t = (int)sqrt(temp);
+                if(t*t == temp && t <= n)
+                    cnt++;
             }
         }
 
