@@ -1,5 +1,6 @@
 // class Solution {
 // public:
+/* didn't understood the question correctly, see they dont want min diff, they want the min diff between the highest and the lowest score from the pool of k students in the class nums.*/
 //     int minimumDifference(vector<int>& nums, int k) {
         
 //         int diff = INT_MAX;
